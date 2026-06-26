@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005356-blue)](https://doi.org/10.82901/nemar.on005356)
+
 Howdy y'all.   Here's data from:
 
 Pirrung, C.J.H., Singh G., Hogeveen, J., Quinn, D. & Cavanagh, J.F.  (2025) Hypoactivation of ventromedial frontal cortex in major depressive disorder: an MEG study of the Reward Positivity.   Biological Psychiatry: Cognitive Neuroscience and Neuroimaging
