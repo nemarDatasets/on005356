@@ -1,0 +1,27 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005356",
+  "source": "openneuro",
+  "source_id": "ds005356",
+  "title": "MEG: Major Depression & Probabilistic Learning Task",
+  "authors": {
+    "[Unspecified]": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005356.v1.5.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ]
+}
