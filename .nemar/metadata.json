@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "MEG: Major Depression & Probabilistic Learning Task",
-  "description": "This MEG dataset comprises neurophysiological recordings from 90 participants (38 controls, 52 with major depressive disorder) performing a probabilistic learning task during a 306-sensor Elekta Neuromag acquisition. The study investigates reward positivity and ventromedial frontal cortex activation patterns in major depressive disorder using reinforcement learning paradigms. Participants were clinically characterized using structured diagnostic interviews (SCID) to establish diagnostic group membership.",
+  "description": "This MEG dataset comprises neurophysiological recordings from 90 participants (38 controls, 52 with major depressive disorder) performing a probabilistic learning task during a 306-sensor Elekta Neuromag acquisition. The study investigates reward positivity and ventromedial prefrontal cortex activation patterns in major depressive disorder using reinforcement learning paradigms. Participants were clinically characterized using structured diagnostic interviews (SCID) to establish diagnostic group membership. Note: Anatomical MRI (T1) and resting-state data are planned for future release.",
   "methods_description": "MEG data were acquired using a 306-sensor Elekta Neuromag system during a probabilistic selection task. Participants were stratified into control (n=38) and major depressive disorder (n=52) groups based on SCID diagnostic interviews. The task was designed to be MEG-compatible for assessing reward positivity during reinforcement learning.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -22,9 +22,6 @@
       "term": "Reward Positivity"
     },
     {
-      "term": "Reward Processing"
-    },
-    {
       "term": "reinforcement learning"
     },
     {
@@ -34,13 +31,16 @@
       "term": "ventromedial prefrontal cortex"
     },
     {
-      "term": "neuroimaging"
+      "term": "neurophysiology"
     },
     {
-      "term": "Electrophysiology"
+      "term": "Elekta Neuromag"
     },
     {
-      "term": "Clinical Psychology"
+      "term": "SCID"
+    },
+    {
+      "term": "clinical neuroscience"
     }
   ],
   "related_identifiers": [
