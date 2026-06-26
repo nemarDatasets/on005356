@@ -2,17 +2,48 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "MEG: Major Depression & Probabilistic Learning Task",
+  "description": "This MEG dataset comprises neurophysiological recordings from 90 participants (38 controls, 52 with major depressive disorder) performing a probabilistic learning task during a 306-sensor Elekta Neuromag acquisition. The study investigates reward positivity and ventromedial frontal cortex activation patterns in major depressive disorder using reinforcement learning paradigms. Participants were clinically characterized using structured diagnostic interviews (SCID) to establish diagnostic group membership.",
+  "methods_description": "MEG data were acquired using a 306-sensor Elekta Neuromag system during a probabilistic selection task. Participants were stratified into control (n=38) and major depressive disorder (n=52) groups based on SCID diagnostic interviews. The task was designed to be MEG-compatible for assessing reward positivity during reinforcement learning.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "[Unspecified]": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005356.v1.5.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "Major Depressive Disorder",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003865"
+    },
+    {
+      "term": "Reward Positivity"
+    },
+    {
+      "term": "Reward Processing"
+    },
+    {
+      "term": "reinforcement learning"
+    },
+    {
+      "term": "probabilistic learning"
+    },
+    {
+      "term": "ventromedial prefrontal cortex"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "Electrophysiology"
+    },
+    {
+      "term": "Clinical Psychology"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005356",
       "identifier_type": "URL",
@@ -32,15 +63,20 @@
       "identifier": "10.1016/j.bpsc.2024.100808",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005356.v1.5.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "170.7 GB (224 files)"
   ],
   "formats": [
     ".dat",
@@ -53,46 +89,8 @@
     ".sh",
     ".tsv",
     ".txt",
-    ".xlsx"
+    ".xlsx",
+    ".yml"
   ],
-  "description": "This magnetoencephalography (MEG) dataset comprises recordings from 90 participants (38 controls, 52 with major depressive disorder) performing a probabilistic learning task. Using a 306-sensor Elekta Neuromag system, the study investigates the Reward Positivity component and associated ventromedial frontal cortex activity during reinforcement learning. The dataset reveals hypoactivation of ventromedial frontal cortex in major depressive disorder and supports investigation of neural reward processing abnormalities in this condition.",
-  "methods_description": "MEG data were acquired using a 306-sensor Elekta Neuromag System during a probabilistic selection task. Participants were clinically characterized via SCID interview and stratified into control (n=38) and major depressive disorder (n=52) groups. The study examined the Reward Positivity component and ventromedial prefrontal cortex activity during reinforcement learning.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "Major Depressive Disorder",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003865"
-    },
-    {
-      "term": "reward processing"
-    },
-    {
-      "term": "Reward Positivity"
-    },
-    {
-      "term": "reinforcement learning"
-    },
-    {
-      "term": "ventromedial frontal cortex"
-    },
-    {
-      "term": "probabilistic learning task"
-    },
-    {
-      "term": "Hypoactivation"
-    },
-    {
-      "term": "Prefrontal Cortex"
-    },
-    {
-      "term": "SCID"
-    },
-    {
-      "term": "Elekta Neuromag"
-    }
-  ],
-  "source_hash": "c4e402dadac745f9ec3ebc829274be717f831b6eb2e185d9df062a73c601b3f7"
+  "source_hash": "c774dc11ef0562605eb735a74504de802c8a04ecc9456e7c34e3aaeb19bc6c3d"
 }
